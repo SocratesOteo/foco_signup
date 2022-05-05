@@ -9,7 +9,7 @@ app.use (express.json)
 app.use(cors())
 
 app.get('/',(req,res)=>{
-    res.sendFile(path.join(__dirname, "/home.html"))
+    res.sendFile(path.join(__dirname, "home.html"))
 })
 
 
@@ -17,5 +17,3 @@ const server = app.listen(port, ()=>{
     console.log('finally!!!!!!!!')
 })
 
-server.keepAliveTimeout = 61 * 1000
-server.headersTimeout = 65 * 1000
