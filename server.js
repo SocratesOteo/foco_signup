@@ -2,7 +2,7 @@
 const express = require('express')
 const path = require('path')
 const cors = require('cors')
-const port = process.env.PORT || process.env.SERVER_PORT
+const port = process.env.PORT || 3000
 
 const app = express()
 app.use (express.json)
@@ -13,7 +13,7 @@ app.get('/',(req,res)=>{
 })
 
 
-const server = app.listen(port, ()=>{
+app.listen(port, ()=>{
     console.log('finally!!!!!!!!')
 })
 
