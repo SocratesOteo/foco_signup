@@ -13,7 +13,9 @@ app.get('/',(req,res)=>{
 })
 
 
-app.listen(port, ()=>{
+const server = app.listen(port, ()=>{
     console.log('finally!!!!!!!!')
 })
 
+server.keepAliveTimeout = 61 * 1000
+server.headersTimeout = 65 * 1000
