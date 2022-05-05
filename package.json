@@ -1,0 +1,33 @@
+{
+  "name": "foco_signup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SocratesOteo/foco_signup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SocratesOteo/foco_signup/issues"
+  },
+  "homepage": "https://github.com/SocratesOteo/foco_signup#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.5",
+    "node": "^17.7.2",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "postgres": "^3.1.0",
+    "sequelize": "^6.19.0"
+  }
+}
